@@ -18,6 +18,9 @@
   "homepage": "https://github.com/SPavelV/build-sandbox#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3"
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-block-scoping": "^7.12.1",
+    "@babel/plugin-transform-classes": "^7.12.1",
+    "@babel/plugin-transform-template-literals": "^7.12.1"
   }
 }
