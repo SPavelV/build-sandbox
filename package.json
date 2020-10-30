@@ -1,0 +1,19 @@
+{
+  "name": "build-sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox to play with React build tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPavelV/build-sandbox.git"
+  },
+  "author": "Pavel Solovev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SPavelV/build-sandbox/issues"
+  },
+  "homepage": "https://github.com/SPavelV/build-sandbox#readme"
+}
