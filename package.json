@@ -25,6 +25,7 @@
     "@babel/plugin-transform-template-literals": "^7.12.1"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.12.1"
+    "@babel/preset-env": "^7.12.1",
+    "core-js": "^3.6.5"
   }
 }
