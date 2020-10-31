@@ -1,18 +1,6 @@
-"use strict";
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-Array.prototype.flat = () => {};
-
-class App {
-  constructor() {
-    _defineProperty(this, "run", async (name = "World") => {
-      console.log(`Hello ${name}`);
-      console.log([1, 2, [2, 3]].flat());
-    });
-  }
-
-}
-
-const app = new App();
-app.run().then(() => console.log("done")).catch(() => console.log("Error!"));
+import React from "react";
+import ReactDOM from "react-dom";
+export const App = () => {
+  return /*#__PURE__*/React.createElement("div", null, "Hello World!");
+};
+ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("root"));
