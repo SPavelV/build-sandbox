@@ -5,7 +5,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 class App {
   constructor() {
     _defineProperty(this, "run", async (name = "World") => {
-      console.log(`Hello ${name}`);
+      console.log("Hello ".concat(name));
     });
   }
 
