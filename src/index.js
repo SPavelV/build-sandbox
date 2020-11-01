@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import css from "./main.css";
-
-console.log(css.toString());
+import "./main.scss";
 
 export const App = () => {
   return <p>Hello</p>;
