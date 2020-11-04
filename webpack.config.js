@@ -1,10 +1,10 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-module.exports = (env, argv = {}) => {
-  const { mode = "development" } = argv;
+module.exports = (env = {}) => {
+  const mode = env["development"] ? "development" : "production";
+
   const isProd = mode === "production";
-  const isDev = mode === "development";
 
   const getStyleLoaders = () => {
     return [
@@ -34,7 +34,7 @@ module.exports = (env, argv = {}) => {
   };
 
   return {
-    mode: isProd ? "production" : isDev && "development",
+    mode,
 
     output: {
       filename: isProd ? "main-[hash:8].js" : undefined,
